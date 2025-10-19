@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "+1234567890",
+      "website": "johndoe.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "+0987654321",
+      "website": "janesmith.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "First Post",
+      "body": "This is the first post content",
+      "userId": 1
+    }
+  ]
+}

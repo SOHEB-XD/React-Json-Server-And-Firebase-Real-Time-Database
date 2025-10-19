@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.app-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin-bottom: 20px;
+}
+
+.tab-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tab-navigation button {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.tab-navigation button.active {
+  background: rgba(255, 255, 255, 0.4);
+  font-weight: bold;
+}
+
+.tab-navigation button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.app-main {
+  padding: 20px;
+}
+
+.error-boundary {
+  padding: 40px;
+  text-align: center;
+  background: #ffeaa7;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.error-boundary button {
+  background: #e17055;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+}

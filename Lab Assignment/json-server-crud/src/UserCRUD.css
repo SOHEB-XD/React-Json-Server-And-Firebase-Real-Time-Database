@@ -1,0 +1,131 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.error {
+  background-color: #ffeaa7;
+  color: #d63031;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #fab1a0;
+}
+
+.form {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  opacity: 0.9;
+}
+
+.form-buttons button:first-child {
+  background: #007bff;
+  color: white;
+}
+
+.form-buttons button:last-child {
+  background: #6c757d;
+  color: white;
+}
+
+.spinner {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: #343a40;
+  color: white;
+}
+
+tr:hover {
+  background: #f8f9fa;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+
+.edit-btn {
+  background: #28a745;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.patch-btn {
+  background: #ffc107;
+  color: black;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: #6c757d;
+  font-style: italic;
+}
